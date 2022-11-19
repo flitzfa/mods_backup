@@ -1,0 +1,46 @@
+
+[general]
+	#Nether Lucky Ore is obtainable/enabled
+	lucky_diamond_ore = true
+	#How far does looting affect the dust drop chances
+	dust_looting_multiplier = 0.01
+	#The Lucky Emerald Ore is obtainable/enabled
+	lucky_emerald_ore = true
+	#Chances for Rare Zombie Drops - see vanilla zombie.json loottable
+	dust_drop_chance = 0.025
+	#The Lucky Lapis Lazuli Ore is obtainable/enabled
+	lucky_lapis_ore = true
+	#The Lucky Gold Ore is obtainable/enabled
+	lucky_redstone_ore = true
+
+	[general.lucky_enchantment]
+		lucky_iron_ore_increased_drops = 2
+		lucky_redstone_ore_increased_drops = 6
+		lucky_lapis_ore_inc_drops = 8
+		lucky_copper_ore_increased_drops = 3
+		#Specific amount of raw bonus drops gained from the Lucky Enchantment
+		lucky_emerald_ore_inc_drops = 3
+		lucky_gold_ore_increased_drops = 5
+		#General amount of raw bonus drops gained from the Lucky Enchantment
+		general_inc_drops = 0
+		#The Lucky Enchantment is obtainable/enabled
+		lucky_enchantment = true
+		lucky_diamond_ore_increased_drops = 0
+
+[worldgen]
+
+	[worldgen.lucky_ore]
+		#Configuration for Lucky Ore
+		vein_count = 25
+		max_y = 128
+		vein_size = 3
+		min_y = 5
+
+	[worldgen."nether_lucky ore"]
+		#Configuration for Nether Lucky Ore
+		vein_count = 35
+		#Warning the game will crash if the valuye is over 128. Vanilla can not generate Ores above 128
+		max_y = 128
+		vein_size = 3
+		min_y = 5
+
